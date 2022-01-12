@@ -146,8 +146,9 @@ class ModularBase implements IModularBase {
 
       setPrintResolver(print);
     } else {
-      throw ModuleStartedException(
-          'Module ${module.runtimeType} is already started');
+      print("ModuleStartedException");
+      // throw ModuleStartedException(
+      //     'Module ${module.runtimeType} is already started');
     }
   }
 
